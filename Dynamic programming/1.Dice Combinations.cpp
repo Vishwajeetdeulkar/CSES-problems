@@ -1,7 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// dp with 1 parameter as we only 1 state is changing with roll of a dice that is sum
 int mod = 1e9+7;
 
 int diceCombinations(int n){
@@ -22,3 +21,6 @@ int main(){
     cout<<diceCombinations(n);
     return 0;
 }
+
+// dp with 1 parameter as we only 1 state is changing with roll of a dice that is sum
+//Each dp[total-diceFace] represents the number of ways to reach sum total if the last dice roll gave diceFace.
