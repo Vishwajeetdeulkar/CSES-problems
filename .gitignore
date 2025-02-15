@@ -1,0 +1,44 @@
+# Ignore executable files
+*.exe
+
+# Ignore object files and other compiler-generated files
+*.o
+*.obj
+*.out
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Ignore debugging files
+*.pdb
+*.ilk
+
+# Ignore build directories
+/build/
+/bin/
+/debug/
+/release/
+/dist/
+/*.vs
+
+# Ignore temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore IDE-specific files
+.vscode/
+*.suo
+*.user
+*.ncb
+*.opendb
+*.VC.db
+
+# Ignore MacOS files
+.DS_Store
+
+# Ignore Windows Thumbs.db
+Thumbs.db
