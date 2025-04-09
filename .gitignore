@@ -10,6 +10,7 @@
 *.so
 *.dll
 *.dylib
+.class
 
 # Ignore debugging files
 *.pdb
